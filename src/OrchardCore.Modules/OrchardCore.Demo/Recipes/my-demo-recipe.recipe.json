@@ -1,0 +1,21 @@
+{
+  "name": "My Demo Recipe",
+  "displayName": "My Demo Recipe",
+  "description": "Description of the recipe",
+  "author": "Author",
+  "website": "https://website.net",
+  "version": "2.0",
+  "issetuprecipe": "false",
+  "categories": [ "default" ],
+  "tags": [ "tag" ],
+  "steps": [
+    {
+      "name": "ContentDefinition",
+      "ContentTypes": [
+        {
+          "Name": "ContentTypeFromRecipe"
+        }
+      ]
+    }
+  ]
+}
